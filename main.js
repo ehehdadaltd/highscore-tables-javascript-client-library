@@ -2,13 +2,13 @@ define(function (require) {
 	var $ = require('jquery');
 	var CryptoJS = require('cryptojs');
 	
-	var ehehdadaltd = ehehdadaltd || {);
+	var ehehdadaltd = ehehdadaltd || {};
 		
 	ehehdadaltd.Highscores = function(tableName, tableKey, sharedSecret) {
 		this.tableName = tableName;
 		this.tableKey = tableKey;
 		this.sharedSecret = sharedSecret;
-	}
+	};
 	
 	function genFingerprint(uri,requestBody,timestamp,tableKey,sharedSecret) {
 		stringToHash = 
