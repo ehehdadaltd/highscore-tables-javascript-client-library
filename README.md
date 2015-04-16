@@ -16,7 +16,13 @@ This is the first version
 
 * Summary of set up
 
-Add a <script> tag in your web page to access to the library.js file.
+This library is accessible using volojs.
+
+Use the command below to add it as dependency:
+
+volo add ehehdadaltd/highscore-tables-javascript-client-library
+
+If you are not using volojs, add a <script> tag in your web page to access to the library.js file.
 
 * Configuration
 
